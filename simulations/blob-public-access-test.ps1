@@ -15,3 +15,6 @@ az storage blob upload --account-name $storageAccount --account-key $key --conta
 
 $blobUrl = "https://$storageAccount.blob.core.windows.net/$container/$file"
 Write-Output "Public URL: $blobUrl"
+ Blob Exposure Simulation Script
+
+File: `simulations/blob-public-access-test.ps1`
