@@ -1,5 +1,5 @@
-$resourceGroup = "Ibrahim-Sec-RG"
-$storageAccount = "ibrahimsecstorage"
+$resourceGroup = "Jimmy-Sec-RG"
+$storageAccount = "Jimmysecstorage"
 $container = "public-test"
 $file = "test.txt"
 
