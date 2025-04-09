@@ -37,6 +37,14 @@ Publicly exposed blob containers are among the most exploited misconfigurations 
 ![Incident Flow](docs/incident-flow.png)
 
 ## 🔬 Real-World Scenario
-This setup mimics a pentest finding where a dev mistakenly exposed sensitive backups via Blob storage. Our system detects and fixes this within 60 seconds.
 
----
+## 🛠️ Azure Logic App: Automated Alert Response
+
+This Logic App is triggered by a security alert (or manual HTTP trigger) and automatically sends an email to the security team with details of the incident.
+
+📁 Logic App Definition: [View JSON](logic-apps/blob-alert-remediation.json)
+📧 Email Notification: Configured via shared mailbox in Azure  
+🌐 Trigger: HTTP Request (simulating alert system)
+
+![Logic App Flow](docs/incident-flow.png)
+
