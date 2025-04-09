@@ -33,8 +33,6 @@ Publicly exposed blob containers are among the most exploited misconfigurations 
 ✔️ Automated remediation using Logic Apps or Azure Function  
 ✔️ SIEM logging into Sentinel with threat tags  
 
-## 🖼️ Architecture Flow
-![Incident Flow](docs/incident-flow.png)
 
 ## 🔬 Real-World Scenario
 
