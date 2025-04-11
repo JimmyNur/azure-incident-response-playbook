@@ -67,7 +67,7 @@ Simulate a real-world cloud security breach caused by misconfigured Azure Blob s
 Misconfigurations are still the biggest real-world cloud risk. This workflow proves response time can be reduced to seconds through automation.
 ## 🧠 Architecture Flow
 
-![Logic Flow](docs/incident-flow.png)
+![Logic Flow] (https://docs.google.com/document/d/1ymf0H8FPWlSiFtJzizTa754bXj6OIMSMutZWDZ1I4J0/edit?usp=sharing)
 
 ### 📧 Email Notification
 Configured via a shared mailbox in Azure  
