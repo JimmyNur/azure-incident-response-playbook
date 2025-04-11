@@ -36,10 +36,13 @@ Publicly exposed blob containers are among the most exploited misconfigurations 
 ## 🔬 Real-World Scenario
 This playbook automates alert responses via a Logic App, triggered by a security alert or manual HTTP request, which sends an email to the security team detailing the incident.
 
-## 🛠️ Azure Logic App: Automated Alert Response
+## ⚙️ Azure Logic App: Automated Alert Response
 
 This Logic App is triggered by a security alert (or manual HTTP trigger) and automatically sends an email to the security team with details of the incident.
 
+- Logic App Definition: [View JSON](logic-apps/blob-alert-remediation.json)
+- Email Notification: Configured via shared mailbox in Azure
+- Trigger: HTTP Request (simulating alert system)
 ### 📁 Logic App Definition
 [View JSON](logic-apps/blob-alert-remediation.json)
 
