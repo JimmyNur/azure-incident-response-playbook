@@ -75,7 +75,7 @@ Configured via a shared mailbox in Azure
 ### 🌐 Trigger
 HTTP Request (simulating alert system)
 
-![Logic App Flow](https://docs.google.com/document/d/1j--lCkL3hrCUEw3Xb_zDK0R8PVreEPYZKjILmOXkr6E/edit?usp=sharing)
+![Logic App Flow] (https://docs.google.com/document/d/1j--lCkL3hrCUEw3Xb_zDK0R8PVreEPYZKjILmOXkr6E/edit?usp=sharing)
 
 ## 🎉 Usage
 Instructions on how to trigger the automation and what to expect after running it.
