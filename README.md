@@ -46,13 +46,36 @@ This Logic App is triggered by a security alert (or manual HTTP trigger) and aut
 ### 📁 Logic App Definition
 [View JSON](logic-apps/blob-alert-remediation.json)
 
+# 🔍 Public Blob Misconfiguration – Real-World Simulation
+
+## 🧪 Goal
+Simulate a real-world cloud security breach caused by misconfigured Azure Blob storage and demonstrate automated incident response.
+
+## 💣 Breach Steps
+1. Created a blob container with public read access
+2. Uploaded a file simulating sensitive internal data
+3. Accessed the blob anonymously via direct URL
+4. Triggered Logic App via HTTP or alert simulation
+5. Auto-remediation: removed public access + email notification sent
+
+## ✅ Success Indicators
+- Logic App fired immediately
+- Access to the blob revoked
+- Email received with breach info
+
+## 📌 Lessons Learned
+Misconfigurations are still the biggest real-world cloud risk. This workflow proves response time can be reduced to seconds through automation.
+## 🧠 Architecture Flow
+
+![Logic Flow](docs/incident-flow.png)
+
 ### 📧 Email Notification
 Configured via a shared mailbox in Azure  
 
 ### 🌐 Trigger
 HTTP Request (simulating alert system)
 
-![Logic App Flow](docs/incident-flow.png)
+![Logic App Flow](https://docs.google.com/document/d/1j--lCkL3hrCUEw3Xb_zDK0R8PVreEPYZKjILmOXkr6E/edit?usp=sharing)
 
 ## 🎉 Usage
 Instructions on how to trigger the automation and what to expect after running it.
